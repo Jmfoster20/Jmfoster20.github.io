@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>My Portfolio</h1>
+    <h2>About Me</h2>
+    <p>This is a brief introduction about myself.</p>
+
+    <!-- List -->
+    <h2>Skills</h2>
+    <ul>
+        <li>html</li>
+        <li>java</li>
+        <li>css</li>
+        <li>kotlin</li>
+    </ul>
+
+    <h2>pet</h2>
+    <ol>
+        <li>dove</li>
+        <li>cat</li>
+        <li>dog</li>
+    </ol>
+
+
+    <!-- Table -->
+    <h2>Project Overview</h2>
+    <table>
+        <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Technology Used</th>
+        </tr>
+        <tr>
+            <td>Website Redesign</td>
+            <td>Redesigned the company website for a better user experience.</td>
+            <td>HTML, CSS, JavaScript</td>
+        </tr>
+        <tr>
+            <td>Inventory System</td>
+            <td>Developed an inventory management system for a local business.</td>
+            <td>PHP, MySQL</td>
+        </tr>
+    </table>
+
+    <!-- Image -->
+    <h2>My Work</h2>
+    <img src="image.jpg" alt="Sample Work Image" width="500px">
+
+    <!-- Form -->
+    <h2>Contact Me</h2>
+    <form action="/action_page.php">
+        <p>Please select your favorite Web language:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+
+      
+      <div>
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+            <option value="Japan">
+            <option value="China">
+            <option value="Philippines">
+            </datalist>
+        </div><br><br>
+
+
+      
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Link -->
+    <h2>More Information</h2>
+    <p>For more details, visit my <a href="https://www.facebook.com/profile.php?id=100070861293917">facebook profile</a>.</p>
+</body>
+</html>
